@@ -1,7 +1,7 @@
 # Data Structure Note CH7
 
 ## Result
-```bash
+```shell
 > javac C07_List.java
 > java C07_List
 === Array List ===
