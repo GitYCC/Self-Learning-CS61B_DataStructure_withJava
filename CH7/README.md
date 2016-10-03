@@ -22,7 +22,8 @@ class ArrayList {
 	private int stored[];
 	private int lastIndex;
 	public ArrayList() { ... }
-  public void insertItem(int newItem, int location) { ... }
+  	public void insertItem(int newItem, int location) { ... }
 	public void printList() { ... }
 }
 ```
+At initially creating the object, it allocate a empty array with size of 3, called `stored`. This `stored` is used to store all of integer array, using the method `insertItem(int newItem, int location)` to add new integer into `stored`. And we could use the method `printList()` to print out the result in the `stored` array.
