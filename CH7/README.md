@@ -12,3 +12,17 @@ Round 2: size of the stored array exceeded
 === Linked List ===
 [9, 8, 7]
 ```
+## Instruction
+### C07_List.java
+Including two kinds of List, there are array list and linked list.
+
+Class ArrayList implement the array list.
+```java
+class ArrayList {
+	private int stored[];
+	private int lastIndex;
+	public ArrayList() { ... }
+  public void insertItem(int newItem, int location) { ... }
+	public void printList() { ... }
+}
+```
