@@ -2,8 +2,8 @@
 
 ## Result
 <span style="color:black; background-color:grey"> 
-> javac C07_List.java</br>
-> java C07_List</br>
+$ javac C07_List.java</br>
+$ java C07_List</br>
 === Array List ===</br>
 Round 1: normally insert items</br>
 [1, 3, 2]</br>
