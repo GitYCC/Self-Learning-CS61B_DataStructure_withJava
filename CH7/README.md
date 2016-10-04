@@ -1,17 +1,18 @@
 # Data Structure Note CH7
 
 ## Result
-<div style="background-color:rgba(255, 255, 255, 0)">
-> javac C07_List.java
-> java C07_List
-=== Array List ===
-Round 1: normally insert items
-[1, 3, 2]
-Round 2: size of the stored array exceeded
-[4, 1, 3, 2, 0, 0]
-=== Linked List ===
-[9, 8, 7]
+<div style="background-color:rgba(0, 0, 0, 0)">
+> javac C07_List.java</br>
+> java C07_List</br>
+=== Array List ===</br>
+Round 1: normally insert items</br>
+[1, 3, 2]</br>
+Round 2: size of the stored array exceeded</br>
+[4, 1, 3, 2, 0, 0]</br>
+=== Linked List ===</br>
+[9, 8, 7]</br>
 </div>
+
 ## Instruction
 ### C07_List.java
 Including two kinds of List, there are array list and linked list.
