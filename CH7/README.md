@@ -1,7 +1,7 @@
 # Data Structure Note CH7
 
 ## Result
-```shell
+<div style="background-color:rgba(255, 255, 255, 0)">
 > javac C07_List.java
 > java C07_List
 === Array List ===
@@ -11,7 +11,7 @@ Round 2: size of the stored array exceeded
 [4, 1, 3, 2, 0, 0]
 === Linked List ===
 [9, 8, 7]
-```
+</div>
 ## Instruction
 ### C07_List.java
 Including two kinds of List, there are array list and linked list.
