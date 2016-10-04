@@ -39,6 +39,7 @@ stored[location] = newItem;
 
 If the `stored` array is already full, we create a new array `extendedStored` with size twice than old one. And then we put the `stored` into `extendedStored` and replace `stored` with `extendedStored`. So we extend the `stored` array size.
 
+
 Class `LinkedList` implement the linked list. `LinkedList` use a recursive data type `ListNode` to link all of elements.
 
 `ListNode` has two parts: a stored element and pointed next `ListNode`. 
