@@ -1,6 +1,6 @@
 # Data Structure Note CH7
 
-## Result
+## Run on Terminal
 ```shell
 > javac C07_List.java
 > java C07_List
