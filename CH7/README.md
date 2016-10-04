@@ -1,7 +1,7 @@
 # Data Structure Note CH7
 
 ## Result
-<div style="background-color:rgba(0, 0, 0, 0)">
+<div style="background-color:rgba(255, 0, 0, 0)">
 > javac C07_List.java</br>
 > java C07_List</br>
 === Array List ===</br>
