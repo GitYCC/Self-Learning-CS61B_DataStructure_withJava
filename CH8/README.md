@@ -2,8 +2,8 @@
 
 ## Run on Terminal
 ```bash
-> javac C08_DoublyLinked.java
-> java C07_DoublyLinked
+> javac C08_DoublyLinkedList.java
+> java C07_DoublyLinkedList
 Test Basic Doubly Linked List
 Round 1:
 Size of myBasicDList: 4
