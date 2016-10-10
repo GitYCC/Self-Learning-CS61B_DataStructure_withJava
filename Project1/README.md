@@ -196,8 +196,8 @@ detector, so you don't have to think about it again.)
 We have provided Java classes to help you see your output images and debug your
 implementation of Part I, in these files:
 ```
-    Blur.java
-    Sobel.java
+Blur.java
+Sobel.java
 ```
 The main() methods in these classes read an image in TIFF format, use your code
 to perform blurring and/or edge detection, write the modified image in TIFF
@@ -205,7 +205,7 @@ format, and display the input and output images.  You will need to compile them
 against the JAI image libraries in the .jar files we have included, which
 may require you to add the .jar files to your "classpath".  In Unix:
 ```
-    javac -cp "jai_core.jar:jai_codec.jar" *.java
+javac -cp "jai_core.jar:jai_codec.jar" *.java
 ```
 Both programs take one or two command-line arguments.  The first argument
 specifies the name of an input image file in TIFF format.  (If you specify no
@@ -213,7 +213,7 @@ arguments, the programs will remind you how to use them.)  The optional second
 argument specifies the number of iterations of your box blurring filter to
 perform.  For example, if you run
 ```
-    java -cp ".:jai_core.jar:jai_codec.jar" Blur image.tiff 3
+java -cp ".:jai_core.jar:jai_codec.jar" Blur image.tiff 3
 ```
 then Blur will load the image from image.tiff, perform three iterations of
 blurring, write the blurred image to a file named blur_image.tiff, and display
@@ -225,7 +225,7 @@ iterations of blurring prior to edge detection.  A small amount of blurring
 tends to make edge detection more robust in images whose lines of contrast are
 not very sharp.  If you run
 ```
-    java Sobel image.tiff 5
+java Sobel image.tiff 5
 ```
 then Sobel will load the image from image.tiff, perform five iterations of
 blurring, perform Sobel edge detection on the blurred image, write the blurred
@@ -254,13 +254,13 @@ PixImages can be stored more compactly if we represent them as "run-length
 encodings."  Imagine taking all the rows of pixels in the image, and connecting
 them into one long strip.  Think of the pixels as being numbered thusly:
 ```
-                        -----------------------------
-                        |   0  |   1  |   2  |   3  |
-                        -----------------------------
-                        |   4  |   5  |   6  |   7  |
-                        -----------------------------
-                        |   8  |   9  |  10  |  11  |
-                        -----------------------------
+                -----------------------------
+                |   0  |   1  |   2  |   3  |
+                -----------------------------
+                |   4  |   5  |   6  |   7  |
+                -----------------------------
+                |   8  |   9  |  10  |  11  |
+                -----------------------------
 ```
 Some images have long strips of pixels of the same color (RGB intensities).
 In particular, the grayscale images produced by sobelEdges() can have large
@@ -276,10 +276,10 @@ object.  For instance, the following strip of intensities:
 ```
 could be represented with just three records, each representing one "run":
 ```
-                             --------------------
-                             | 7,3 | 88,5 | 0,4 |
-                             --------------------
-```
+                    --------------------
+                    | 7,3 | 88,5 | 0,4 |
+                    --------------------
+``
 "7,3" means that there are three consecutive 7's, followed by "88,5" to signify
 five consecutive 88's, and then "0,4" for four jet black pixels.  With this
 encoding, a huge image whose pixels are mostly one color (like daily comic
@@ -302,14 +302,16 @@ java.util.LinkedList.  However, in CS 61B this is forbidden, because I want you
 to always understand every detail of how your data structures work.  Likewise,
 you may not use java.util.Vector or other data structures libraries.
 
-**Part II(a):**  Implement two simple constructors for RunLengthEncodings.  One
+**Part II(a):**  
+Implement two simple constructors for RunLengthEncodings.  One
 constructs a run-length encoding of a jet black image.  The other constructs
 a run-length encoding based on four arrays provided as parameters to the
 constructor.  These arrays tell you exactly what runs your run-length encoding
 should contain, so you are simply converting arrays to a linked list.  (Read
 the prototype in RunLengthEncoding.java.)
 
-**Part II(b):**  Your run-length encodings will be useful only if other classes
+**Part II(b):**  
+Your run-length encodings will be useful only if other classes
 are able to read your encodings after you create them.  Therefore, implement
 the iterator() method in the RunLengthEncoding class and the RunIterator()
 constructor, the hasNext() method, and the next() method in the RunIterator
@@ -341,7 +343,8 @@ back to the first run again, it has to construct a brand new RunIterator.)
 Please read the file RunIterator.java carefully for more information.  You
 might also find it helpful to look up the Iterator class in the Java API.
 
-**Part II(c):**  Implement a toPixImage() method in the RunLengthEncoding class,
+**Part II(c):**  
+Implement a toPixImage() method in the RunLengthEncoding class,
 which converts a run-length encoding to a PixImage object.
 
 Read RunLengthEncoding.java carefully for an explanation of what methods
@@ -377,12 +380,12 @@ which walks through your run-length encoding and checks its validity.
 Specifically, it should print a warning message if any of the following
 problems are found:
 
-    - If two consecutive runs have exactly the same type of contents.
+* If two consecutive runs have exactly the same type of contents.
       For instance, a "99,12" run followed by an "99,8" run is illegal, because
       they should have been consolidated into a single run of twenty 99's.
-    - If the sum of all the run lengths doesn't equal the size (in pixels) of
+* If the sum of all the run lengths doesn't equal the size (in pixels) of
       the PixImage; i.e. its width times its height.
-    - If a run has a length less than 1.
+* If a run has a length less than 1.
 
 You may find that the check() method is very useful in helping to debug your
 RunLengthEncoding() constructors and setPixel() in Part IV.  I also recommend
