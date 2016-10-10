@@ -28,6 +28,21 @@ class OpenCommercial {
     inputLine = keyboard.readLine();
 
     /* Replace this comment with your solution.  */
+    URL u = new URL("https://www." + inputLine + ".com/");
+    // InputStream Object: read raw data from some source (here is web), but don't format the data
+    InputStream ins = u.openStream();
+    // InputStreamReader Object: compose the raw data into charactors
+    InputStreamReader isr = new InputStreamReader(ins);
+    // BufferedReader Object: compoase the characters into entire lines of text
+    BufferedReader contents = new BufferedReader(isr);
 
+    String[] headFive = new String[5];
+    for (int i = 0; i < 5; i++) {
+    	headFive[i] = contents.readLine();
+    }
+    
+    for (int i = 4; i >= 0; i--) {
+    	System.out.println(headFive[i]+"\n");
+    }
   }
 }
