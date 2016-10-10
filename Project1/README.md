@@ -279,7 +279,7 @@ could be represented with just three records, each representing one "run":
                     --------------------
                     | 7,3 | 88,5 | 0,4 |
                     --------------------
-``
+```
 "7,3" means that there are three consecutive 7's, followed by "88,5" to signify
 five consecutive 88's, and then "0,4" for four jet black pixels.  With this
 encoding, a huge image whose pixels are mostly one color (like daily comic
