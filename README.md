@@ -1,4 +1,4 @@
-# iLearning-CS61B_DataStructure_withJava
+# Self-Learning-CS61B_DataStructure_withJava
 This is note for Berkeley Unitversity Prof. Jonathan Shewchuk's CS 61B Data Structures (Spring 2014).  
   
 **Material:** https://people.eecs.berkeley.edu/~jrs/61b/   
