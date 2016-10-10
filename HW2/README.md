@@ -1,6 +1,6 @@
 # CS 61B  Homework 2
 
-* Excerpts from: https://people.eecs.berkeley.edu/~jrs/61b/hw/hw2/ *
+*Excerpts from: https://people.eecs.berkeley.edu/~jrs/61b/hw/hw2/*
 
 This homework assignment is designed to help you learn about building Java
 classes and to observe the decomposition of a complicated task into simple
@@ -34,7 +34,7 @@ However, don't remove any of the method declarations that appear in the skeletal
    printing, the method should not print anything.)  The only exception here
    is the main method, which can do anything you like, so long as it compiles.  
 6. Although some test cases are provided in the main method, we will add
-   trickier ones to our grading test suite, which won't be run until _after_
+   trickier ones to our grading test suite, which won't be run until **after**
    the due date.  It is your responsibility to ensure that your methods work
    correctly on any input, not just the test cases.  So you might want to add
    more tests.  
@@ -89,9 +89,7 @@ data fields (all private) within the Date class.  Define the basic constructor
 specified below.  A Date should be constructed only if the date is valid.  If
 a caller attempts to construct an invalid date, the program should halt after
 printing an error message of your choosing.  To halt the program, include the
-line:
-
-System.exit(0);
+line: `System.exit(0);`
 
 ```{java}
 /** Constructs a date with the given month, day and year.   If the date is
@@ -157,10 +155,9 @@ isAfter() with just one line of code.  You need to think carefully, though:
 "return !isBefore(d)" is incorrect.  Can you see why?
 
 Hint 2:  all the methods in the Date class can read all the private fields in
-_any_ Date object (not just "this" Date object).
+**any** Date object (not just "this" Date object).
 
 ## Part IV
-
 Implement the final missing piece of your class, a second constructor that
 takes a String argument.
 
