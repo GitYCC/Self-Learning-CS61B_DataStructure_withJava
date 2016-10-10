@@ -10,15 +10,15 @@ This is note for Berkeley Unitversity Prof. Jonathan Shewchuk's CS 61B Data Stru
 
 | Unit                             |  Finish Date  | 
 |---------------------------       |-------------- | 
-| CH1. Introduction to Java        | 2016/9/19 | 
-| CH2. Using objects; I/O Object   | 2016/9/19 | 
-| CH3. Defining classes            | 2016/9/25 | 
-| CH4. Types; Conditionals         | 2016/9/25 | 
-| CH5. Loops & arrays I            | 2016/9/29 | 
-| CH6. Loops & arrays II           | 2016/9/30 | 
-| CH7. Linked lists I              | 2016/10/4 | 
-| CH8. Linked lists II             | 2016/10/5 | 
-| CH9. Stack & heap                | 2016/10/9  | 
+| CH1. Introduction to Java        | 2016/ 9/19 | 
+| CH2. Using objects; I/O Object   | 2016/ 9/19 | 
+| CH3. Defining classes            | 2016/ 9/25 | 
+| CH4. Types; Conditionals         | 2016/ 9/25 | 
+| CH5. Loops & arrays I            | 2016/ 9/29 | 
+| CH6. Loops & arrays II           | 2016/ 9/30 | 
+| CH7. Linked lists I              | 2016/10/ 4 | 
+| CH8. Linked lists II             | 2016/10/ 5 | 
+| CH9. Stack & heap                | 2016/10/ 9  | 
 | CH10. Inheritance                | 2016/10/10  | 
 | CH11. Testing; equals()          | 2016/10/10  | 
 | CH12. Abstract classes; Interfaces | 2016/10/10  | 
