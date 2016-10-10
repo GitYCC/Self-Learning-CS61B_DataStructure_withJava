@@ -7,7 +7,6 @@ This is note for Berkeley Unitversity Prof. Jonathan Shewchuk's CS 61B Data Stru
 1. Required: Kathy Sierra and Bert Bates, Head First Java, O'Reilly, 2005. ISBN # 0-596-00920-8  
 2. Optional: Michael T. Goodrich and Roberto Tamassia, Data Structures and Algorithms in Java, John Wiley & Sons, 2010. ISBN # 0-470-38326-7  
 **Outline:**  
-  
 | Unit  | Finish Date |
 |:------|:------------|
 | CH1. Introduction to Java |  |  
@@ -18,12 +17,12 @@ This is note for Berkeley Unitversity Prof. Jonathan Shewchuk's CS 61B Data Stru
 | CH6. Loops & arrays II   |  |
 | CH7. Linked lists I   |  |
 | CH8. Linked lists II   |  |
-| CH9. Stack & heap   |  |
-| CH10. Inheritance   |  |
-| CH11. Testing; equals()   |  |
-| CH12. Abstract classes; Interfaces   |  |
+| CH9. Stack & heap   | 2016/10/9  |
+| CH10. Inheritance   | 2016/10/10  |
+| CH11. Testing; equals()   | 2016/10/10  |
+| CH12. Abstract classes; Interfaces   | 2016/10/10  |
 | CH13. Java packages   |  |
-| MIDTERM I  
+| MIDTERM I  |  |
 | CH15. Exceptions   |  |
 | CH16. Exceptions; More Java   |  |
 | CH17. Game Trees   |  |
