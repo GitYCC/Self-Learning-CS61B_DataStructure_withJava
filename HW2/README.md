@@ -154,8 +154,8 @@ Hint 1:  once you've implemented isBefore(), it's possible to implement
 isAfter() with just one line of code.  You need to think carefully, though:
 "return !isBefore(d)" is incorrect.  Can you see why?
 
-<font color="red">Hint 2:  all the methods in the Date class can read all the private fields in
-**any** Date object (not just "this" Date object).</font>
+**Hint 2:  all the methods in the Date class can read all the private fields in
+any Date object (not just "this" Date object).</font>**
 
 ## Part IV
 Implement the final missing piece of your class, a second constructor that
