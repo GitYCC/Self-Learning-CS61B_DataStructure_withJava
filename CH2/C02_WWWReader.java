@@ -6,7 +6,7 @@ public class C02_WWWReader {
 		URL u = new URL("https://www.google.com.tw/");
 		// InputStream Object: read raw data from some source (here is web), but don't format the data
 		InputStream ins = u.openStream();
-		// InputStreamReader Object: compose the raw data into charactors
+		// InputStreamReader Object: compose the raw data into characters
 		InputStreamReader isr = new InputStreamReader(ins);
 		// BufferedReader Object: compoase the characters into entire lines of text
 		BufferedReader contents = new BufferedReader(isr);

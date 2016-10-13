@@ -1,4 +1,4 @@
-# SimpleIO and WWWReader  
+# Simple IO and WWWReader  
 Reading text from keyboard in Java is not an easy thing. It must through three objects to get it. Why not just use simple function to get it? It invoke about flexible.  
 
 Reading from keyboard, you must use three kind of objects:  
@@ -6,7 +6,7 @@ Reading from keyboard, you must use three kind of objects:
 ```{java}
 System.in
 ```
-2.InputStreamReader Object: compose the raw data into charactors  
+2.InputStreamReader Object: compose the raw data into characters  
 ```{java}
 new InputStreamReader(System.in)
 ```
