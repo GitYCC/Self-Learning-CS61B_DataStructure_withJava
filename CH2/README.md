@@ -1,16 +1,16 @@
 # SimpleIO and WWWReader  
-Reading text from keyboard in Java is not an easy thing. It must through a lot of object to get it. Why not just use simple function to get it? It invoke flexible about methods.  
+Reading text from keyboard in Java is not an easy thing. It must through three objects to get it. Why not just use simple function to get it? It invoke about flexible.  
 
 Reading from keyboard, you must use three kind of objects:  
-1. InputStream Object: read raw data from some source, but don't format the data  
+1.InputStream Object: read raw data from some source, but don't format the data
 ```{java}
 System.in
 ```
-2. InputStreamReader Object: compose the raw data into charactors  
+2.InputStreamReader Object: compose the raw data into charactors  
 ```{java}
 new InputStreamReader(System.in)
 ```
-3. BufferedReader Object: compoase the characters into entire lines of text  
+3.BufferedReader Object: compoase the characters into entire lines of text  
 ```{java}
 BufferedReader keybd = new BufferedReader(new InputStreamReader(System.in));
 ```
