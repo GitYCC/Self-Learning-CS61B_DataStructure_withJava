@@ -42,7 +42,7 @@ If you look carefully in this homework, you would find there has a lot of test c
 > In real-world software development, often the size of the test code is larger than the size of the code being tested.  
 
 ### Three Aspect
-1. Modular Testing:
+1. Modular Testing:  
     (1) Test Driver: call the code, check results  
     (2) Stubs: Bit of code **called** by the code being tested  
 2. Integration Testing:  
