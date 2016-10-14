@@ -43,14 +43,14 @@ If you look carefully in this homework, you would find there has a lot of test c
 
 ### Three Aspect
 1. Modular Testing:
-    (1) Test Driver: call the code, check results
-    (2) Stubs: Bit of code **called** by the code being tested
-2. Integration Testing:
-    (1) Define interfaces well
-    (2) Learn to use a debugger
-3. Result Verification:
-    (1) Inspect a data structure and verify that all invariants are satisfied.
-    (2) Algorithm Result Checker: assert  
+    (1) Test Driver: call the code, check results  
+    (2) Stubs: Bit of code **called** by the code being tested  
+2. Integration Testing:  
+    (1) Define interfaces well  
+    (2) Learn to use a debugger  
+3. Result Verification:  
+    (1) Inspect a data structure and verify that all invariants are satisfied.  
+    (2) Algorithm Result Checker: assert    
 
 ### Two Principles
 1. All-path testing
