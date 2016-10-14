@@ -19,8 +19,17 @@ public class Homework3 {
    **/
 
   public static void smoosh(int[] ints) {
-    // Fill in your solution here.  (Ours is twelve lines long, not counting
-    // blank lines or lines already present in this file.)
+	int j = 1;
+	for (int i = 1; i < ints.length; i++) {
+	  if (ints[i] != ints[j-1]) {
+	    ints[j] = ints[i];
+		  j++;
+		}
+	  }
+	while (j < ints.length) {
+	  ints[j] = -1;
+	  j++;
+	}
   }
 
   /**
@@ -30,10 +39,10 @@ public class Homework3 {
 
   private static String stringInts(int[] ints) {
     String s = "[  ";
-    for (int i = 0; i < ints.length; i++) {
-      s = s + Integer.toString(ints[i]) + "  ";
-    }
-    return s + "]";
+	for (int i = 0; i < ints.length; i++) {
+	  s = s + Integer.toString(ints[i]) + "  ";
+	}
+	return s + "]";
   }
 
   /**

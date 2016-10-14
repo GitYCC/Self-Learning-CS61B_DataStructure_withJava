@@ -10,8 +10,8 @@
 
 public class SList {
 
-  private SListNode head;
-  private int size;
+	private SListNode head;
+	private int size;
 
   /**
    *  SList() constructs an empty list.
@@ -111,7 +111,16 @@ public class SList {
    **/
 
   public void squish() {
-    // Fill in your solution here.  (Ours is eleven lines long.)
+	SList newSList = new SList();
+	int j = 1;
+    for (int i = 1; i < this.size+1; i++) {
+      if (  ! this.nth(i).equals(newSList.nth(j-1)) ) {
+    	  newSList.insertEnd(this.nth(i));
+    	  j++;
+      }
+    }
+    this.head = newSList.head;
+    this.size = newSList.size;
   }
 
   /**
@@ -126,7 +135,14 @@ public class SList {
    **/
 
   public void twin() {
-    // Fill in your solution here.  (Ours is seven lines long.)
+	if (this.isEmpty()) { return; }
+    SListNode node = this.head;
+    SListNode insertone = null;
+    do {
+    	insertone = new SListNode(node.item,node.next);
+    	node.next = insertone;
+    	node = insertone.next;
+    } while (node!=null);
   }
 
   /**
