@@ -153,7 +153,7 @@ Displaying input image and blurred image.
 Close the image to quit.
 ```
 And your screen will boom out this.
-![blur_example](blur_example.PNG)  
+![blur_example](result/blur_example.PNG)  
 Blur.class has two arguments. First one is a file you want to blur, and second one is an iteration number of blurring. Try another interesting part.
 ```
 $ javac Sobel.java
@@ -167,9 +167,9 @@ Writing run-length encoded grayscale-edge image file rle_flower.tiff
 Displaying input image, blurred image, and grayscale-edge image.
 Close the image to quit.
 ```
-![blur_example](sobel_example.PNG)  
+![sobel_example](result/sobel_example.png)  
 Sobel.class has three arguments. First one still is a file you want to blur, and second one still is an iteration number of blurring. And the third one is switch of turning Run_Lengths Encoding. I turn off here. This code show out three picture, the first one is original picture, second one is the blurred picture, and third one is a result of Sobel method on the blurred picture. Sobel method is a method to detect edge in pictures. So, the more I blur pictures, the less distinct on edge results of Sobel method. Show this by our testing,
-![ResultOfBlurAndSobel](ResultOfBlurAndSobel.png)  
+![ResultOfBlurAndSobel](result/ResultOfBlurAndSobel.png)  
 ```
 $ java Sobel flower.tiff 0 true
 Reading image file flower.tiff
@@ -180,7 +180,7 @@ Displaying input image and grayscale-edge image.
 Close the image to quit.
 ```
 This time, I turn on Run-Lengths Encoding which is one of methed of picture compression and can be implemented on *.tiff. Let see what happen on size of pictures.
-![run_lengths_encoding](run_lengths_encoding.png)  
+![run_lengths_encoding](result/run_lengths_encoding.png)  
 rle_flower.tiff which is the result of Run-Lengths Encoding has little size than the other.
 ## Explain in Detail
 TBC
