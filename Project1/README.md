@@ -1,4 +1,7 @@
 # CS 61B Project 1: Color Images, Edge Detection, and Run-Length Encodings
+## Report
+Show result in [REPORT.md](REPORT.md)
+## Instructions
 In this project you will implement two simple image processing operations on
 color images:  blurring and edge detection.  You will use libraries to read and
 write files in the TIFF image format.  One option in TIFF files is that they

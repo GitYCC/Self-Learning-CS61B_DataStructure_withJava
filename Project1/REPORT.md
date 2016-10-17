@@ -182,5 +182,5 @@ Close the image to quit.
 This time, I turn on Run-Lengths Encoding which is one of methed of picture compression and can be implemented on *.tiff. Let see what happen on size of pictures.
 ![run_lengths_encoding](run_lengths_encoding.png)  
 rle_flower.tiff which is the result of Run-Lengths Encoding has little size than the other.
-## Instruction
+## Explain in Detail
 TBC
