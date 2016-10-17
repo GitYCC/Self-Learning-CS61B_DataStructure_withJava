@@ -153,7 +153,7 @@ Displaying input image and blurred image.
 Close the image to quit.
 ```
 And your screen will boom out this.
-![blur_example](blur_example.png)  
+![blur_example](blur_example.PNG)  
 Blur.class has two arguments. First one is a file you want to blur, and second one is an iteration number of blurring. Try another interesting part.
 ```
 $ javac Sobel.java
@@ -167,7 +167,7 @@ Writing run-length encoded grayscale-edge image file rle_flower.tiff
 Displaying input image, blurred image, and grayscale-edge image.
 Close the image to quit.
 ```
-![blur_example](sobel_example.png)  
+![blur_example](sobel_example.PNG)  
 Sobel.class has three arguments. First one still is a file you want to blur, and second one still is an iteration number of blurring. And the third one is switch of turning Run_Lengths Encoding. I turn off here. This code show out three picture, the first one is original picture, second one is the blurred picture, and third one is a result of Sobel method on the blurred picture. Sobel method is a method to detect edge in pictures. So, the more I blur pictures, the less distinct on edge results of Sobel method. Show this by our testing,
 ![ResultOfBlurAndSobel](ResultOfBlurAndSobel.png)  
 ```
