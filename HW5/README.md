@@ -2,6 +2,7 @@
 ## Outline
 * Instruction
 * Result
+
 ## Instruction
 This homework will teach you a more secure way to encapsulate lists than the method used in Homework 4, and give you practice using it to accomplish tasks quickly.  This is an individual assignment; you may not share code with other students.
 
