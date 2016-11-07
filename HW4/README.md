@@ -2,6 +2,7 @@
 ## Outline
 * Instruction
 * Result
+
 ## Instruction
 This homework will give you practice with writing doubly-linked lists and using subclasses.  This is an individual assignment; you may not share code with other students.
 
@@ -79,3 +80,87 @@ From your hw4 directory, type "submit hw4".  (Note that "submit" will not work i
 
 ## Result
 ### Run Code
+```
+$ javac -g list/*.java
+```  
+
+```
+$ java list.DList
+[  ]
+[Pass] After constructed,check empty
+[Pass] After constructed,check length
+[Pass] After constructed,check front
+[Pass] After constructed,check back
+[  1  ]
+[Pass] After adding 1 at front,check empty
+[Pass] After adding 1 at front,check length
+[Pass] After adding 1 at front,check front
+[Pass] After adding 1 at front,check back
+[  -1  1  ]
+[Pass] After adding -1 at front,check empty
+[Pass] After adding -1 at front,check length
+[Pass] After adding -1 at front,check front
+[Pass] After adding -1 at front,check back
+[  -1  1  2  ]
+[Pass] After adding 2 at back,check empty
+[Pass] After adding 2 at back,check length
+[Pass] After adding 2 at back,check front
+[Pass] After adding 2 at back,check back
+[  -1  1  2  3  ]
+[Pass] Test insertAfter
+[Pass] Move test 1
+[Pass] Move test 2
+[Pass] Move test 3
+[Pass] Move test 4
+[Pass] Move test 5
+[Pass] Move test 6
+[Pass] Move test 7
+[Pass] Move test 8
+[  -1  1  2  ]
+[Pass] Remove test 1
+[  1  2  ]
+[Pass] Remove test 2
+```  
+
+```
+$ java list.LockDList
+[  ]
+[Pass] After constructed,check empty
+[Pass] After constructed,check length
+[Pass] After constructed,check front
+[Pass] After constructed,check back
+[  1  ]
+[Pass] After adding 1 at front,check empty
+[Pass] After adding 1 at front,check length
+[Pass] After adding 1 at front,check front
+[Pass] After adding 1 at front,check back
+[  -1  1  ]
+[Pass] After adding -1 at front,check empty
+[Pass] After adding -1 at front,check length
+[Pass] After adding -1 at front,check front
+[Pass] After adding -1 at front,check back
+[  -1  1  2  ]
+[Pass] After adding 2 at back,check empty
+[Pass] After adding 2 at back,check length
+[Pass] After adding 2 at back,check front
+[Pass] After adding 2 at back,check back
+[  -1  1  2  3  ]
+[Pass] Test insertAfter
+[Pass] Move test 1
+[Pass] Move test 2
+[Pass] Move test 3
+[Pass] Move test 4
+[Pass] Move test 5
+[Pass] Move test 6
+[Pass] Move test 7
+[Pass] Move test 8
+[  -1  1  2  ]
+[Pass] Remove test 1
+[  1  2  ]
+[Pass] Remove test 2
+[  1  2  ]
+[Pass] Lock Check
+```  
+
+### Note  
+In DList, it ketp newNode() method alone, that makes inherit in LockDList much easier, just override newNode() method.
