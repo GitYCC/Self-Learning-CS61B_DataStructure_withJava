@@ -22,16 +22,16 @@ This note is for Berkeley Unitversity Prof. Jonathan Shewchuk's CS 61B Data Stru
 | CH10. Inheritance; *HW3*         | 2016/10/10  | 
 | CH11. Testing; equals()          | 2016/10/10  | 
 | CH12. Abstract classes; Interfaces | 2016/10/10  | 
-| CH13. Java packages              |  | 
-| MIDTERM I; *Project1*            |  | 
-| CH15. Exceptions; *HW4*          |  | 
-| CH16. Exceptions; More Java      |  | 
-| CH17. Game Trees                 |  | 
+| CH13. Java packages              | 2016/10/14 | 
+| MIDTERM I; *Project1*            | 2016/10/17 | 
+| CH15. Exceptions; *HW4*          | 2016/11/ 7 | 
+| CH16. Exceptions; More Java      | 2016/11/ 7 | 
+| CH17. Game Trees                 | 2016/11/ 7 | 
 | CH18. Encapsulation; *HW5*       |  | 
 | CH19. Encapsulated lists         |  | 
 | CH20. Asymptotic analysis        |  | 
-| CH21. Dictionaries & hash tables |  |   
-| CH22. Hash codes; stacks & queues|  |   
+| CH21. Dictionaries & hash tables |  | 
+| CH22. Hash codes; stacks & queues|  |
 | CH23. Asymptotic analysis; Algorithm analysis |  | 
 | CH24. Trees and traversals; *HW6*|  | 
 | CH25. Priority queues            |  | 
