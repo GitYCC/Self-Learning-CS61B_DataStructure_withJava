@@ -87,6 +87,8 @@ Change (cd) to your hw5 directory, which should contain Set.java and the list di
 ```
 $ javac -g list/*.java
 $ java list.DList
+```
+```
 An empty list should be [  ]: [  ]
 l.isEmpty() should be true: true
 l.length() should be 0: 0
@@ -170,8 +172,12 @@ p.prev() should throw an exception, and did.
 p.insertBefore() should throw an exception, and did.
 p.insertAfter() should throw an exception, and did.
 p.remove() should throw an exception, and did.
+```
+```
 $ javac Set.java
 $ java Set 
+```
+```
 Set s = {  3  4  }
 Set s2 = {  4  5  }
 Set s3 = {  3  5  8  }
